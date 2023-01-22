@@ -469,6 +469,9 @@ seflkaefklef */
   width: calc((var(--tilesize) * .66666) + 5px);
   height: calc((var(--tilesize) * .66666) + 5px);
 
+  right: calc((var(--tilesize) * .1666));
+  bottom: calc((var(--tilesize) * .1666));
+
 }
 
 
@@ -488,8 +491,10 @@ seflkaefklef */
   clip-path: polygon(0 50%, 50% 0, 50% 0, 100% 50%, 100% 50%, 50% 100%, 50% 100%, 0 50%);
 
 
-  right: calc((var(--tilesize) * .1666));
-  bottom: calc((var(--tilesize) * .1666));
+  /* right: calc((var(--tilesize) * .1666));
+  bottom: calc((var(--tilesize) * .1666)); */
+
+  /* hamster */
 
 }
 
